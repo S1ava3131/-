@@ -14,7 +14,6 @@ public class Main
 	}
 }  
 
-
 public class klient {
     private String FIO;
     private String telefon;
@@ -61,7 +60,6 @@ public class klient {
     }
 }    
 
-
 public class sotrudnic {
     private String FIO;
     private String Dolzhnost;
@@ -98,8 +96,6 @@ public class sotrudnic {
     }
 }    
 
-
-
 public class putevka {
     private String cena;
     private String data_prebavania;
@@ -131,7 +127,6 @@ public class putevka {
     public String get_otel() {
         return otel;
     }    
-
 
     public putevka (String cena, String data_prebavania, String strana_prebavania,String otel) {
         this.cena = cena;
