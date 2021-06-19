@@ -3,12 +3,12 @@ public class Main
 	public static void main(String[] args) {
 	    klient pers = new klient("Левин Андрей Ярославович");
 		putevka r = new putevka("Гватемала");
-		System.out.println("Пассажир " + pers.tell() + " выбрал путёвку в Гватемалу " + r.say());
+		System.out.println("Пассажир " + pers.tell() + " выбрал путёвку в Киото " + r.say());
 		klient k = new klient("Левин Андрей Ярославович", "+7 926 458-65-88", "zolotzya.ribka@mail.com");
 		k.take();
 		sotrudnic s = new sotrudnic("Овсянников Макар Михайлович","старший консультант");
 		s.take();
-	    putevka p = new putevka("20000 рублей", "31 июня", "Гватемала","Laguna Lodge Eco-Resort & Nature Reserve");
+	    putevka p = new putevka("28 179 рублей", "31 июня", "Гватемала","Laguna Lodge Eco-Resort & Nature Reserve");
 	    p.output();
 	
 	}
