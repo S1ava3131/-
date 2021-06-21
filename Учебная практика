@@ -2,7 +2,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    klient pers = new klient("Аккерман Леви Ярославович");
-		putevka r = new putevka("Гватемала");
+		putevka r = new putevka("Киото");
 		System.out.println("Пассажир " + pers.tell() + " выбрал путёвку в Киото " + r.say());
 		klient k = new klient("Аккерман Леви Ярославович", "+7 926 458-65-88", "leviackerman.@gmail.com");
 		k.take();
